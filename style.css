@@ -1,0 +1,38 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+input[type="text"] {
+	width: calc(100% - 10px);
+	margin-right: 10px;
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	background-color: transparent;
+}
+
+button {
+	background-color: red;
+	color: black;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #ff3333;
+}
+
+label {
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+#output-text {
+	cursor: pointer;
+}

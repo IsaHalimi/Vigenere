@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Vigenere-Verschlüsselung</title>
+    <link href="style.css" rel="stylesheet">
+
+<body>
+    <script src="script.js"></script>
+
+	<h1>Vigenere-Verschlüsselung</h1>
+	
+	<label for="input-text">Text:</label>
+	<input type="text" id="input-text"><br><br>
+	
+	<label for="password">Passwort:</label>
+	<input type="text" id="password"><br><br>
+	
+	<label for="alphabet">Alphabet:</label>
+	<input type="text" id="alphabet" value="ABCDEFGHIJKLMNOPQRSTUVWXYZ"><br><br>
+	
+	<button onclick="verschluesseln()">Verschlüsseln</button><br><br>
+	
+	<label for="output-text">Verschlüsselter Text:</label>
+	<input type="text" id="output-text" ondblclick="kopieren()"><br><br>
+	
+
+</body>
+</html>
